@@ -18,9 +18,10 @@ namespace MovieMart.Data
         #endregion
 
         /// <summary>
-        /// Passes connection options when creating a DbContext object.
+        /// Initializes a new instance of the <see cref="MovieMartDbContext"/> class
+        /// with the specified database connection options.
         /// </summary>
-        /// <param name="options">Database connection settings</param>
+        /// <param name="options">Configuration settings for the database connection.</param>
         public MovieMartDbContext(DbContextOptions<MovieMartDbContext> options)
             : base(options)
         {

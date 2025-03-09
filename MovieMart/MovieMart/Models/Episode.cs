@@ -10,5 +10,8 @@
         // One-to-Many: Season <-> Episode
         public int SeasonId { get; set; }
         public Season Season { get; set; } = null!;
+
+        // Add the episode link here
+        public string? VideoUrl { get; set; }
     }
 }

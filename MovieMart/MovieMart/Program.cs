@@ -1,4 +1,6 @@
 using MovieMart.Data;
+using MovieMart.Repositories;
+using MovieMart.Repositories.IRepositories;
 
 namespace MovieMart
 {
@@ -11,9 +13,23 @@ namespace MovieMart
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
-            // Add DbContext to application services
+            // Register MovieMartDbContext with Dependency Injection 
+            // Configured to use SQL Server with the connection string from app settings.
             builder.Services.AddDbContext<MovieMartDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+
+            // Register repository services with Dependency Injection (Scoped Lifetime) 
+            // This ensures that a new instance is created per request, improving efficiency 
+            // while maintaining consistency within a request's lifecycle.
+            builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+            builder.Services.AddScoped<ICharacterRepository, CharacterRepository>();
+            builder.Services.AddScoped<IEpisodeRepository, EpisodeRepository>();
+            builder.Services.AddScoped<IMovieRepository, MovieRepository>();
+            builder.Services.AddScoped<ISeasonRepository, SeasonRepository>();
+            builder.Services.AddScoped<ITvSeriesRepository, TvSeriesRepository>();
+
+
 
             var app = builder.Build();
 
@@ -32,16 +48,16 @@ namespace MovieMart
 
             app.UseAuthorization();
 
-            // The Areas :
+            // Configuring endpoint routing for different application areas
             app.UseEndpoints(endpoints =>
             {
-                // Admin area
+                // Route for the #Admin area
                 endpoints.MapControllerRoute(
                 name: "Admin",
                 pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
                 );
 
-                // Customer area
+                // Route for the #Customer area
                 endpoints.MapControllerRoute(
                 name: "Customer",
                 pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
