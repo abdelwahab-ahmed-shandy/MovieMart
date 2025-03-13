@@ -9,6 +9,12 @@ namespace MovieMart.Areas.Admin.Controllers
         {
             return View();
         }
+
+        public IActionResult NotFound()
+        {
+            return View();
+        }
+
     }
-    //todo:here
+
 }

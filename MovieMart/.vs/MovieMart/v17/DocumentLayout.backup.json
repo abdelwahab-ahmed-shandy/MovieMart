@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "E:\\01-Projects\\Movies \u0026 Series Online Store\\MovieMart\\MovieMart\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4560316-E56A-4D97-A563-84C4B5F46646}|MovieMart\\MovieMart.csproj|e:\\01-projects\\movies \u0026 series online store\\moviemart\\moviemart\\moviemart\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B4560316-E56A-4D97-A563-84C4B5F46646}|MovieMart\\MovieMart.csproj|solutionrelative:moviemart\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B4560316-E56A-4D97-A563-84C4B5F46646}|MovieMart\\MovieMart.csproj|e:\\01-projects\\movies \u0026 series online store\\moviemart\\moviemart\\moviemart\\areas\\admin\\controllers\\charactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4560316-E56A-4D97-A563-84C4B5F46646}|MovieMart\\MovieMart.csproj|solutionrelative:moviemart\\areas\\admin\\controllers\\charactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4560316-E56A-4D97-A563-84C4B5F46646}|MovieMart\\MovieMart.csproj|e:\\01-projects\\movies \u0026 series online store\\moviemart\\moviemart\\moviemart\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4560316-E56A-4D97-A563-84C4B5F46646}|MovieMart\\MovieMart.csproj|solutionrelative:moviemart\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4560316-E56A-4D97-A563-84C4B5F46646}|MovieMart\\MovieMart.csproj|e:\\01-projects\\movies \u0026 series online store\\moviemart\\moviemart\\moviemart\\models\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4560316-E56A-4D97-A563-84C4B5F46646}|MovieMart\\MovieMart.csproj|solutionrelative:moviemart\\models\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4560316-E56A-4D97-A563-84C4B5F46646}|MovieMart\\MovieMart.csproj|e:\\01-projects\\movies \u0026 series online store\\moviemart\\moviemart\\moviemart\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B4560316-E56A-4D97-A563-84C4B5F46646}|MovieMart\\MovieMart.csproj|solutionrelative:moviemart\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B4560316-E56A-4D97-A563-84C4B5F46646}|MovieMart\\MovieMart.csproj|e:\\01-projects\\movies \u0026 series online store\\moviemart\\moviemart\\moviemart\\areas\\admin\\views\\character\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4560316-E56A-4D97-A563-84C4B5F46646}|MovieMart\\MovieMart.csproj|solutionrelative:moviemart\\areas\\admin\\views\\character\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,19 +22,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1416,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\01-Projects\\Movies \u0026 Series Online Store\\MovieMart\\MovieMart\\MovieMart\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "MovieMart\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\01-Projects\\Movies \u0026 Series Online Store\\MovieMart\\MovieMart\\MovieMart\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "MovieMart\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-08T03:06:59.838Z",
+              "DocumentIndex": 1,
+              "Title": "Character.cs",
+              "DocumentMoniker": "E:\\01-Projects\\Movies \u0026 Series Online Store\\MovieMart\\MovieMart\\MovieMart\\Models\\Character.cs",
+              "RelativeDocumentMoniker": "MovieMart\\Models\\Character.cs",
+              "ToolTip": "E:\\01-Projects\\Movies \u0026 Series Online Store\\MovieMart\\MovieMart\\MovieMart\\Models\\Character.cs",
+              "RelativeToolTip": "MovieMart\\Models\\Character.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T01:34:18.251Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -49,26 +50,26 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\01-Projects\\Movies \u0026 Series Online Store\\MovieMart\\MovieMart\\MovieMart\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "MovieMart\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "ToolTip": "E:\\01-Projects\\Movies \u0026 Series Online Store\\MovieMart\\MovieMart\\MovieMart\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "MovieMart\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "E:\\01-Projects\\Movies \u0026 Series Online Store\\MovieMart\\MovieMart\\MovieMart\\Areas\\Admin\\Views\\Character\\Index.cshtml",
+              "RelativeDocumentMoniker": "MovieMart\\Areas\\Admin\\Views\\Character\\Index.cshtml",
+              "ToolTip": "E:\\01-Projects\\Movies \u0026 Series Online Store\\MovieMart\\MovieMart\\MovieMart\\Areas\\Admin\\Views\\Character\\Index.cshtml*",
+              "RelativeToolTip": "MovieMart\\Areas\\Admin\\Views\\Character\\Index.cshtml*",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCMAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-08T03:05:35.363Z",
+              "WhenOpened": "2025-03-12T15:48:28.921Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "E:\\01-Projects\\Movies \u0026 Series Online Store\\MovieMart\\MovieMart\\MovieMart\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "MovieMart\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "ToolTip": "E:\\01-Projects\\Movies \u0026 Series Online Store\\MovieMart\\MovieMart\\MovieMart\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "MovieMart\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "CharacterController.cs",
+              "DocumentMoniker": "E:\\01-Projects\\Movies \u0026 Series Online Store\\MovieMart\\MovieMart\\MovieMart\\Areas\\Admin\\Controllers\\CharacterController.cs",
+              "RelativeDocumentMoniker": "MovieMart\\Areas\\Admin\\Controllers\\CharacterController.cs",
+              "ToolTip": "E:\\01-Projects\\Movies \u0026 Series Online Store\\MovieMart\\MovieMart\\MovieMart\\Areas\\Admin\\Controllers\\CharacterController.cs",
+              "RelativeToolTip": "MovieMart\\Areas\\Admin\\Controllers\\CharacterController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAkwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T03:05:26.159Z",
+              "WhenOpened": "2025-03-12T01:34:42.302Z",
               "EditorCaption": ""
             }
           ]

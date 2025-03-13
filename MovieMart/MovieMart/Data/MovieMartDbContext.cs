@@ -7,10 +7,10 @@ namespace MovieMart.Data
         #region Entities definition :
 
         public DbSet<Movie> Movies { get; set; }
+        public DbSet<Category> Categories { get; set; }
         public DbSet<TvSeries> TvSeries { get; set; }
         public DbSet<Season> Seasons { get; set; }
         public DbSet<Episode> Episodes { get; set; }
-        public DbSet<Category> Categories { get; set; }
         public DbSet<Character> Characters { get; set; }
         public DbSet<CharacterMovie> CharacterMovies { get; set; }
         public DbSet<CharacterTvSeries> CharacterTvSeries { get; set; }
@@ -81,7 +81,8 @@ namespace MovieMart.Data
             modelBuilder.Entity<Movie>()
                 .HasOne(m => m.Category)
                 .WithMany(c => c.Movies)
-                .HasForeignKey(m => m.CategoryId);
+                .HasForeignKey(m => m.CategoryId)
+                .OnDelete(DeleteBehavior.Cascade);
             #endregion
 
             #region Seed Data In Table :
