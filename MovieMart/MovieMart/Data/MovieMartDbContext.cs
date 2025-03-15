@@ -1,8 +1,10 @@
-﻿using MovieMart.Models;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using MovieMart.Models;
 
 namespace MovieMart.Data
 {
-    public class MovieMartDbContext : DbContext
+    public class MovieMartDbContext : IdentityDbContext<ApplicationUser>
     {
         #region Entities definition :
 
@@ -32,6 +34,8 @@ namespace MovieMart.Data
         /// </summary>
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            // Call the default configuration for the data model in the Entity Framework
+            // This ensures that any basic configuration is applied before any additional customization is applied
             base.OnModelCreating(modelBuilder);
 
             #region Many To Many In Table :

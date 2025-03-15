@@ -1,5 +1,4 @@
-﻿﻿
-<!DOCTYPE html>
+﻿﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -60,6 +59,12 @@
                             <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                             Dashboard
                         </a>
+
+                        <a class="nav-link" asp-area="Admin" asp-controller="Home" asp-action="Index">
+                            <div class="sb-nav-link-icon"> </div>
+                            Admins
+                        </a>
+
                         <div class="sb-sidenav-menu-heading">Management</div>
                         <a class="nav-link" asp-area="Admin" asp-controller="Movie" asp-action="Index">
                             <div class="sb-nav-link-icon"><i class="fas fa-video"></i></div>
@@ -75,7 +80,7 @@
                         </a>
                         <a class="nav-link" asp-area="Admin" asp-controller="Character" asp-action="Index">
                             <div class="sb-nav-link-icon"><i class="fas fa-video"></i></div>
-                            Characteres
+                            Characters
                         </a>
 
                         <a class="nav-link" asp-area="Admin" asp-controller="TvSeries" asp-action="Index">
@@ -121,14 +126,9 @@
 	<script src="~/assets/dashboard/js/scripts.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
 	<script src="~/assets/dashboard/assets/demo/chart-area-demo.js"></script>
-
 	<script src="~/assets/dashboard/assets/demo/chart-bar-demo.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js" crossorigin="anonymous"></script>
-	<script src="~/assets/dashboard/assets/demo/chart-pie-demo.js"></script>
-    <script src="~/assets/dashboard/js/scripts.js"></script>
-
 	<script src="~/assets/dashboard/js/datatables-simple-demo.js"></script>
-
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
